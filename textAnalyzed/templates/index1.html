@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Text Analyzer</title>
+</head>
+<body>
+<h1>Welcome to Text Analyzer.Enter your Text Here</h1>
+<form action="analyzedText" method="get">
+    <textarea name="text" style="margin: 0px; width: 641px; height: 175px;"></textarea><br><br>
+    <input type="radio" id="removepunc" name="selecttype" value="punc">
+    <label for="removepunc">Remove Punctuation</label><br>
+    <input type="radio" id="removespace" name="selecttype" value="space">
+    <label for="removespace">Remove Space</label><br>
+    <input type="radio" id="charcount" name="selecttype" value="count">
+    <label for="charcount">Count Charecter</label><br>
+    <input type="radio" id="removenewline" name="selecttype" value="newline">
+    <label for="removenewline">Remove New Line</label><br>
+    <input type="radio" id="captext" name="selecttype" value="capital">
+    <label for="captext">Capitalize Text</label><br><br>
+
+    <button type="submit">Analyxed Text</button>
+</form>
+</body>
+</html>
