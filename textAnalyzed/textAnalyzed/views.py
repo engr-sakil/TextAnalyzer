@@ -55,6 +55,6 @@ def analyzedText(request):
         return render(request, 'analyzedresult.html', params)
 
     else:
-        return HttpResponse("Error")
+        return render(request,'Error.html')
 
 
